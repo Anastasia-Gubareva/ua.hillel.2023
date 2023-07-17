@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Rest Api Suite1" verbose="1" >
+    <test name="Api Test" >
+        <classes>
+            <class name="tests.rest.StoreRestTests" />
+        </classes>
+    </test>
+
+</suite>
