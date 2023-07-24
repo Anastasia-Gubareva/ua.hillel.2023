@@ -42,7 +42,7 @@ public class TestRun extends  BaseTest {
     public void invalidLogin() {
         openMainPage().goToLogInPage()
                 .setUsername("fall")
-                .setPassword("123456")
+                .setPassword("123455556")
                 .clickLoginButton();
         LoginPage loginPage = new LoginPage(driver);
         String text = loginPage.getErrorToast();
